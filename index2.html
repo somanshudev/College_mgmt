@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placement Management System</title>
+    <link rel="stylesheet" href="stylei.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Placement Management System</h2>
+
+        <form id="placementForm">
+            <label for="studentName">Student Name:</label>
+            <input type="text" id="studentName" required>
+
+            <label for="placementCompany">Placement Company:</label>
+            <input type="text" id="placementCompany" required>
+
+            <button type="button" id="addStudentBtn">Add Student</button>
+
+        </form>
+
+        <div class="student-list">
+            <h3>Student List</h3>
+            <table id="studentTable">
+                <thead>
+                    <tr>
+                        <th>Student Name</th>
+                        <th>Placement Company</th>
+                        <th>Profile</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Student details will be added dynamically here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+<script src="/main.js"></script>
+</body>
+</html>
